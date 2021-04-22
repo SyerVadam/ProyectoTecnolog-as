@@ -58,6 +58,9 @@
     <Compile Include="LoginDireccion.xaml.cs">
       <DependentUpon>LoginDireccion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuPrincipalDireccion.xaml.cs">
+      <DependentUpon>MenuPrincipalDireccion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaChat.xaml.cs">
       <DependentUpon>VentanaChat.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuPrincipalDireccion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

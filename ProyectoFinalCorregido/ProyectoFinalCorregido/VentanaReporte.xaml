@@ -8,9 +8,9 @@
         Title="Reporte" Height="450" Width="600">
     <Grid>
         <Button x:Name="btn_levantarReporte" Content="Levantar reporte" HorizontalAlignment="Left" Margin="30,135,0,0" VerticalAlignment="Top" Width="111" FontSize="14" Click="btn_levantarReporte_Click"/>
-        <Button x:Name="btn_historial" Content="Ver historial" HorizontalAlignment="Left" Margin="249,135,0,0" VerticalAlignment="Top" Width="108" FontSize="14"/>
-        <Label Content="Seleccione la opción que desee hacer con un reporte" HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="500,36,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_regresar_Click"/>
+        <Button x:Name="btn_historial" Content="Ver historial" HorizontalAlignment="Left" Margin="195,135,0,0" VerticalAlignment="Top" Width="108" FontSize="14"/>
+        <Label Content="Seleccione la opción que desee hacer con un reporte" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="500,35,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_regresar_Click"/>
 
     </Grid>
 </Window>

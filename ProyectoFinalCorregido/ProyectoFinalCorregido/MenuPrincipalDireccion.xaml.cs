@@ -15,19 +15,26 @@ using System.Windows.Shapes;
 namespace ProyectoFinalCorregido
 {
     /// <summary>
-    /// Lógica de interacción para LoginDireccion.xaml
+    /// Lógica de interacción para MenuPrincipalDireccion.xaml
     /// </summary>
-    public partial class LoginDireccion : Window
+    public partial class MenuPrincipalDireccion : Window
     {
-        public LoginDireccion()
+        public MenuPrincipalDireccion()
         {
             InitializeComponent();
         }
 
-        private void btn_login_Click(object sender, RoutedEventArgs e)
+        private void btn_chat_Click(object sender, RoutedEventArgs e)
         {
-            MenuPrincipalDireccion menuPrincipalDireccion = new MenuPrincipalDireccion();
-            menuPrincipalDireccion.Show();
+            VentanaChat ventanaChat = new VentanaChat();
+            ventanaChat.Show();
+            this.Close();
+        }
+
+        private void btn_cerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
             this.Close();
         }
     }

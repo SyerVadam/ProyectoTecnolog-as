@@ -54,3 +54,5 @@ C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcci
 C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\ProyectoFinalCorregido.csproj.CoreCompileInputs.cache
 C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\LoginDireccion.g.cs
 C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\LoginDireccion.baml
+C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\MenuPrincipalDireccion.g.cs
+C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\MenuPrincipalDireccion.baml
