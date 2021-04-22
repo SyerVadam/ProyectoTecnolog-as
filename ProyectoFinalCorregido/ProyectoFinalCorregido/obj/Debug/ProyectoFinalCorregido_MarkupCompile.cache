@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\
+C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\
 ProyectoFinalCorregido
 none
 false
 DEBUG;TRACE
-C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\App.xaml
+C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\App.xaml
 7-2031698668
 
-12757848462
+111600207829
 13-1505183044
 MainWindow.xaml;MenuPrincipal.xaml;VentanaChat.xaml;VentanaHistorialReportes.xaml;VentanaRegistrarReporte.xaml;VentanaRegistroConductor.xaml;VentanaReporte.xaml;
 
-True
+False
 
