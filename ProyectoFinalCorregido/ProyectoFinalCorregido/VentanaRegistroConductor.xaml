@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProyectoFinalCorregido.VentanaRegistroConductor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalCorregido"
+        mc:Ignorable="d"
+        Title="VentanaRegistroConductor" Height="505.172" Width="567.241">
+    <Grid>
+        <Label Content="Ingrese la información que se solicita a continuación:" HorizontalAlignment="Left" Margin="70,37,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Nombre:" HorizontalAlignment="Right" Margin="0,90,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Apellido paterno:" HorizontalAlignment="Right" Margin="0,130,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Apellido materno:" HorizontalAlignment="Right" Margin="0,170,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Fecha de nacimiento:" HorizontalAlignment="Right" Margin="0,210,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Número de licencia" HorizontalAlignment="Right" Margin="0,250,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Teléfono celular" HorizontalAlignment="Right" Margin="0,290,350,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="tb_nombre" HorizontalAlignment="Left" Height="23" Margin="231,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <TextBox x:Name="tb_apellidoP" HorizontalAlignment="Left" Height="23" Margin="231,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <TextBox x:Name="tb_apellidoM" HorizontalAlignment="Left" Height="23" Margin="231,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <TextBox x:Name="tb_numeroLicencia" HorizontalAlignment="Left" Height="23" Margin="231,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <TextBox x:Name="tb_celular" HorizontalAlignment="Left" Height="23" Margin="231,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <DatePicker x:Name="dt_fechaNacimiento" HorizontalAlignment="Left" Margin="231,210,0,0" VerticalAlignment="Top" Width="222" FontSize="14"/>
+        <Button x:Name="btn_guardar" Content="Registrar conductor" HorizontalAlignment="Left" Margin="141,382,0,0" VerticalAlignment="Top" Width="110" Height="25" Click="btn_guardar_Click"/>
+        <Button x:Name="brn_cancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="324,382,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="brn_cancelar_Click"/>
+
+    </Grid>
+</Window>

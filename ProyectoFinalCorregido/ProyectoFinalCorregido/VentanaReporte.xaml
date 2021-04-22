@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProyectoFinalCorregido.VentanaReporte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalCorregido"
+        mc:Ignorable="d"
+        Title="Reporte" Height="450" Width="600">
+    <Grid>
+        <Button x:Name="btn_levantarReporte" Content="Levantar reporte" HorizontalAlignment="Left" Margin="30,135,0,0" VerticalAlignment="Top" Width="111" FontSize="14" Click="btn_levantarReporte_Click"/>
+        <Button x:Name="btn_historial" Content="Ver historial" HorizontalAlignment="Left" Margin="249,135,0,0" VerticalAlignment="Top" Width="108" FontSize="14"/>
+        <Label Content="Seleccione la opción que desee hacer con un reporte" HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="500,36,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_regresar_Click"/>
+
+    </Grid>
+</Window>

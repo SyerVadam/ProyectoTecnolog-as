@@ -1,0 +1,20 @@
+﻿<Window x:Class="ProyectoFinalCorregido.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalCorregido"
+        mc:Ignorable="d"
+        Title="Iniciar Sesión" Height="474.138" Width="494.828">
+    <Grid>
+        <Label Content="Nombre de Usuario:" HorizontalAlignment="Left" Margin="69,145,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="123,215,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.286,0.483"/>
+        <PasswordBox x:Name="pb_contraseña" HorizontalAlignment="Left" Height="24" Width="120" Margin="275,215,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="tb_nombreUsuario" HorizontalAlignment="Left" Height="23" Margin="275,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Button x:Name="btn_login" Content="Iniciar Sesión" HorizontalAlignment="Left" Margin="207,391,0,0" VerticalAlignment="Top" Width="90" Click="btn_login_Click" FontSize="14"/>
+        <Label Content="Sistema de gestión de reportes" HorizontalAlignment="Left" Margin="108,55,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="Delegación:" HorizontalAlignment="Left" Margin="123,285,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.286,0.483"/>
+        <ComboBox x:Name="cb_delegacion" HorizontalAlignment="Left" Margin="275,285,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+    </Grid>
+</Window>
