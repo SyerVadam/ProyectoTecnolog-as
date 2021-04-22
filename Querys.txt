@@ -1,0 +1,55 @@
+Reporte general de alumnos
+
+SELECT Estudiantes.Matricula, Nombre, Paterno + ' ' + Materno as Apellido, 
+Campus.Descripcion,
+Licenciaturas.Descripcion AS Licenciatura,
+Dependencias.Descripcion AS Facultad,
+Estudiantes.Correo
+FROM Estudiantes
+INNER JOIN FZBDAM ON Estudiantes.Matricula = FZBDAM.Matricula
+INNER JOIN Campus ON FZBDAM.IdCampus = Campus.IdCampus
+INNER JOIN Licenciaturas ON FZBDAM.IdLicenciatura = Licenciaturas.IdLicenciatura
+INNER JOIN LicenciaturasDependencias ON FZBDAM.IdLicenciatura = LicenciaturasDependencias.IdLicenciatura
+INNER JOIN Dependencias ON LicenciaturasDependencias.IdDependencia = Dependencias.IdDependencia
+
+
+Reporte cantidad de alumnos por campus
+
+SELECT Campus.Descripcion AS Campus, COUNT(Estudiantes.Matricula) as Estudiantes FROM Campus
+INNER JOIN Estudiantes ON Campus.IdCampus = Estudiantes.IdCampus
+GROUP BY Campus.Descripcion
+
+
+Calificaciones mayores o iguales a 8.5
+
+SELECT Licenciaturas.Descripcion AS Carrera, 
+FZBDAM.Matricula, Nombre +' '+ Paterno +' '+ Materno AS Nombre, 
+Calificacion,
+Campus.Descripcion AS Campus
+FROM FZBDAM
+INNER JOIN Licenciaturas ON FZBDAM.IdLicenciatura = Licenciaturas.IdLicenciatura
+INNER JOIN Estudiantes ON FZBDAM.Matricula = Estudiantes.Matricula
+INNER JOIN Campus ON FZBDAM.IdCampus = Campus.IdCampus
+WHERE Calificacion >= 8.5
+GROUP BY Licenciaturas.Descripcion, Campus.Descripcion, Nombre, Paterno, Materno, Calificacion, FZBDAM.Matricula
+
+Promedio por carrera
+
+SELECT Licenciaturas.Descripcion AS Carrera,
+Dependencias.Descripcion AS Facultad,
+Campus.Descripcion AS Campus,
+AVG(Calificacion) AS Promedio
+FROM FZBDAM
+INNER JOIN Licenciaturas ON FZBDAM.IdLicenciatura = Licenciaturas.IdLicenciatura
+INNER JOIN LicenciaturasDependencias ON Licenciaturas.IdLicenciatura = LicenciaturasDependencias.IdLicenciatura
+INNER JOIN Dependencias ON LicenciaturasDependencias.IdDependencia = Dependencias.IdDependencia
+INNER JOIN Campus ON FZBDAM.IdCampus = Campus.IdCampus
+GROUP BY Campus.Descripcion, Dependencias.Descripcion, Licenciaturas.Descripcion
+
+Promedio por campus
+
+SELECT Campus.Descripcion AS Campus,
+AVG(Calificacion) AS Promedio
+FROM FZBDAM
+INNER JOIN Campus ON FZBDAM.IdCampus = Campus.IdCampus
+GROUP BY Campus.Descripcion
