@@ -1,0 +1,18 @@
+﻿<Window x:Class="SistemaGestionReportes.VentanaVehiculo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistemaGestionReportes"
+        mc:Ignorable="d"
+        Title="Vehículos" Height="450" Width="800">
+    <Grid>
+        <Label Content="Redactar:" HorizontalAlignment="Left" Margin="41,70,0,0" VerticalAlignment="Top" Width="84" FontWeight="Bold" RenderTransformOrigin="0.504,1.34"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="640,386,0,0" VerticalAlignment="Top" Width="86" Click="Btn_registrar_Click"/>
+        <Button Content="Regresar" HorizontalAlignment="Left" Margin="43,30,0,0" VerticalAlignment="Top" Width="82" Click="Btn_regresar_Click"/>
+        <ListBox Margin="43,101,74,76"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="45,386,0,0" VerticalAlignment="Top" Width="78" Click="Btn_eliminar_Click"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Margin="533,386,0,0" VerticalAlignment="Top" Width="79" Click="Btn_modificar_Click"/>
+
+    </Grid>
+</Window>
