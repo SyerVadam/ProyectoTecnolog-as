@@ -9,10 +9,11 @@
     <Grid>
         <Button x:Name="btn_chat" Content="Chatear" HorizontalAlignment="Left" Margin="435,82,0,0" VerticalAlignment="Top" Width="75" Click="btn_chat_Click" FontSize="14"/>
         <Button x:Name="btn_registrarConductor" Content="Registrar conductor" HorizontalAlignment="Left" Margin="61,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_registrarConductor_Click" FontSize="14"/>
-        <Button x:Name="btn_reportes" Content="Ir a reportes" HorizontalAlignment="Left" Margin="234,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_reportes_Click" FontSize="14"/>
+        <Button x:Name="btn_reportes" Content="Ir a reportes" HorizontalAlignment="Left" Margin="409,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_reportes_Click" FontSize="14"/>
         <Label Content="Bienvenido al Sistema de reportes" HorizontalAlignment="Left" Margin="61,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="Presione la opción que desea realizar" HorizontalAlignment="Left" Margin="61,71,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Button x:Name="btn_cerrarSesion" Content="Cerrar sesión" HorizontalAlignment="Left" Margin="435,350,0,0" VerticalAlignment="Top" Width="85" Click="btn_cerrarSesion_Click" FontSize="14"/>
+        <Button x:Name="btn_registrarehiculo" Content="Registrar Vehículo" HorizontalAlignment="Left" Margin="235,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_registrarVehiculo_Click" FontSize="14"/>
 
     </Grid>
 </Window>

@@ -51,5 +51,10 @@ namespace ProyectoFinalCorregido
             ventanaReporte.Show();
             this.Close();
         }
+
+        private void btn_registrarVehiculo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

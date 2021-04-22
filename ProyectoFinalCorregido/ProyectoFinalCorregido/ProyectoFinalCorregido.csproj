@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LoginDireccion.xaml.cs">
+      <DependentUpon>LoginDireccion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaChat.xaml.cs">
       <DependentUpon>VentanaChat.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
     <Compile Include="VentanaReporte.xaml.cs">
       <DependentUpon>VentanaReporte.xaml</DependentUpon>
     </Compile>
+    <Page Include="LoginDireccion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
