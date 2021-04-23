@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFinalCorregido", "ProyectoFinalCorregido\ProyectoFinalCorregido.csproj", "{CC7B1613-EEF6-453E-815E-9BEFF6A36A53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionEscritorioMunicipios", "ProyectoFinalCorregido\AplicacionEscritorioMunicipios.csproj", "{CC7B1613-EEF6-453E-815E-9BEFF6A36A53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionEscritorioDireccionGeneral", "AplicacionEscritorioDireccionGeneral\AplicacionEscritorioDireccionGeneral.csproj", "{6B3F5D79-BA95-4ECB-99F2-920318E7956C}"
 EndProject

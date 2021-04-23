@@ -26,9 +26,7 @@ namespace ProyectoFinalCorregido
 
         private void btn_regresar_Click(object sender, RoutedEventArgs e)
         {
-            VentanaReporte ventanaReporte = new VentanaReporte();
-            ventanaReporte.Show();
-            this.Close();
+            
         }
     }
 }

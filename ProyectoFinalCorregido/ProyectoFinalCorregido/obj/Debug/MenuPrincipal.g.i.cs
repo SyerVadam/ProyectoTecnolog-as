@@ -138,6 +138,14 @@ namespace ProyectoFinalCorregido {
             #line default
             #line hidden
             return;
+            case 5:
+            
+            #line 16 "..\..\MenuPrincipal.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
+            
+            #line default
+            #line hidden
+            return;
             }
             this._contentLoaded = true;
         }

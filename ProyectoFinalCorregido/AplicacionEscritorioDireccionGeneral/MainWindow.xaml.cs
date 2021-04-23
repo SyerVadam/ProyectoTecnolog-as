@@ -24,5 +24,22 @@ namespace AplicacionEscritorioDireccionGeneral
         {
             InitializeComponent();
         }
+
+        private void btn_login_Click(object sender, RoutedEventArgs e)
+        {
+            String nombreUsuario = tb_nombreUsuario.Text;
+            String contraseña = "";
+
+            if (validarUsuario(nombreUsuario, contraseña))
+            {
+                MenuPrincipal menuPrincipal = new MenuPrincipal();
+                menuPrincipal.Show();
+                this.Close();
+            }
+        }
+        private bool validarUsuario(String nombreUsuario, String contraseña)
+        {
+            return true;
+        }
     }
 }

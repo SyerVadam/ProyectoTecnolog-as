@@ -26,16 +26,12 @@ namespace ProyectoFinalCorregido
 
         private void btn_guardar_Click(object sender, RoutedEventArgs e)
         {
-            VentanaReporte ventanaReporte = new VentanaReporte();
-            ventanaReporte.Show();
-            this.Close();
+            
         }
 
         private void btn_cancelar_Click(object sender, RoutedEventArgs e)
         {
-            VentanaReporte ventanaReporte = new VentanaReporte();
-            ventanaReporte.Show();
-            this.Close();
+            
         }
     }
 }

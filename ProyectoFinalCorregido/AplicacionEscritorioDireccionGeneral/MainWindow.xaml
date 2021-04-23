@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AplicacionEscritorioDireccionGeneral"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Iniciar Sesión" Height="474.138" Width="494.828">
     <Grid>
-        
+        <Label Content="Nombre de Usuario:" HorizontalAlignment="Left" Margin="69,145,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Contraseña:" HorizontalAlignment="Left" Margin="123,215,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="-1.286,0.483"/>
+        <PasswordBox x:Name="pb_contraseña" HorizontalAlignment="Left" Height="24" Width="120" Margin="275,215,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="tb_nombreUsuario" HorizontalAlignment="Left" Height="23" Margin="275,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Button x:Name="btn_login" Content="Iniciar Sesión" HorizontalAlignment="Left" Margin="207,391,0,0" VerticalAlignment="Top" Width="90" Click="btn_login_Click" FontSize="14"/>
+        <Label Content="Sistema de gestión de reportes" HorizontalAlignment="Left" Margin="108,55,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+
     </Grid>
 </Window>
