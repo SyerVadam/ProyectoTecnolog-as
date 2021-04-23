@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\App.xaml
-31046249159
+61857932855
 
-8-583997643
+111261374722
 13-1505183044
-MainWindow.xaml;MenuPrincipal.xaml;VentanaChat.xaml;
+MainWindow.xaml;MenuPrincipal.xaml;VentanaChat.xaml;VentanaDetalleReporte.xaml;VentanaDictamen.xaml;VentanaReportes.xaml;
 
-True
+False
 

@@ -15,36 +15,20 @@ using System.Windows.Shapes;
 namespace AplicacionEscritorioDireccionGeneral
 {
     /// <summary>
-    /// Lógica de interacción para MenuPrincipal.xaml
+    /// Lógica de interacción para DetalleReporte.xaml
     /// </summary>
-    public partial class MenuPrincipal : Window
+    public partial class VentanaDetalleReporte : Window
     {
-        public MenuPrincipal()
+        public VentanaDetalleReporte()
         {
             InitializeComponent();
         }
 
-        private void btn_cerrarSesion_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            this.Close();
-        }
-
-        private void btn_chat_Click(object sender, RoutedEventArgs e)
-        {
-            VentanaChat ventanaChat = new VentanaChat();
-            ventanaChat.Show();
-            this.Close();
-        }
-
-
-        private void btn_reportes_Click(object sender, RoutedEventArgs e)
+        private void Btn_regresar_Click(object sender, RoutedEventArgs e)
         {
             VentanaReportes reportes = new VentanaReportes();
             reportes.Show();
             this.Close();
         }
-
     }
 }
