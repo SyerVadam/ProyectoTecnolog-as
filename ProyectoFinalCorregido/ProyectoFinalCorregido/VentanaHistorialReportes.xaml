@@ -14,7 +14,11 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label Content="Lista de reportes emitidos" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_regresar_Click"/>
+        <Label Content="Lista de reportes emitidos" HorizontalAlignment="Left" Margin="138,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="25,13,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btn_regresar_Click"/>
+        <Button x:Name="btn_agregar" Content="Agregar" HorizontalAlignment="Left" Margin="400,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_agregar_Click"/>
+        <Button x:Name="btn_modificar" Content="Modificar" HorizontalAlignment="Left" Margin="320,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_modificar_Click"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="25,375,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_dictamen" Content="Ver dictamen" HorizontalAlignment="Left" Margin="183,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_dictamen_Click"/>
     </Grid>
 </Window>

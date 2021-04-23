@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CC7B1613-EEF6-453E-815E-9BEFF6A36A53}</ProjectGuid>
+    <ProjectGuid>{6B3F5D79-BA95-4ECB-99F2-920318E7956C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProyectoFinalCorregido</RootNamespace>
-    <AssemblyName>ProyectoFinalCorregido</AssemblyName>
+    <RootNamespace>AplicacionEscritorioDireccionGeneral</RootNamespace>
+    <AssemblyName>AplicacionEscritorioDireccionGeneral</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,21 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MenuPrincipal.xaml.cs">
+      <DependentUpon>MenuPrincipal.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaChat.xaml.cs">
       <DependentUpon>VentanaChat.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VentanaHistorialReportes.xaml.cs">
-      <DependentUpon>VentanaHistorialReportes.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="VentanaRegistrarReporte.xaml.cs">
-      <DependentUpon>VentanaRegistrarReporte.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="VentanaRegistroConductor.xaml.cs">
-      <DependentUpon>VentanaRegistroConductor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="VentanaReporte.xaml.cs">
-      <DependentUpon>VentanaReporte.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="VentanaDetalleReporte.xaml.cs" />
+    <Compile Include="VentanaDictamen.xaml.cs" />
+    <Compile Include="VentanaReportes.xaml.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,30 +81,23 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VentanaChat.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="VentanaHistorialReportes.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="VentanaDetalleReporte.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="VentanaRegistrarReporte.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="VentanaDictamen.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="VentanaRegistroConductor.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="VentanaReportes.xaml">
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="VentanaReporte.xaml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuPrincipal.xaml.cs">
-      <DependentUpon>MenuPrincipal.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

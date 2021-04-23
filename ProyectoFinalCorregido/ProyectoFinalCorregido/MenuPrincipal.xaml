@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoFinalCorregido"
         mc:Ignorable="d"
-        Title="MenuPrincipal" Height="450" Width="618.966">
+        Title="Menu principal" Height="300" Width="450">
     <Grid>
-        <Button x:Name="btn_chat" Content="Chatear" HorizontalAlignment="Left" Margin="435,82,0,0" VerticalAlignment="Top" Width="75" Click="btn_chat_Click" FontSize="14"/>
-        <Button x:Name="btn_registrarConductor" Content="Registrar conductor" HorizontalAlignment="Left" Margin="61,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_registrarConductor_Click" FontSize="14"/>
-        <Button x:Name="btn_reportes" Content="Ir a reportes" HorizontalAlignment="Left" Margin="234,184,0,0" VerticalAlignment="Top" Width="140" Click="btn_reportes_Click" FontSize="14"/>
+        <Button x:Name="btn_chat" Content="Chat" HorizontalAlignment="Left" Margin="209,192,0,0" VerticalAlignment="Top" Width="75" Click="btn_chat_Click" FontSize="14"/>
+        <Button x:Name="btn_registrarConductor" Content="Conductores" HorizontalAlignment="Left" Margin="61,126,0,0" VerticalAlignment="Top" Width="104" Click="btn_conductores_Click" FontSize="14"/>
+        <Button x:Name="btn_reportes" Content="Reportes" HorizontalAlignment="Left" Margin="325,126,0,0" VerticalAlignment="Top" Width="73" Click="btn_reportes_Click" FontSize="14"/>
         <Label Content="Bienvenido al Sistema de reportes" HorizontalAlignment="Left" Margin="61,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="Presione la opción que desea realizar" HorizontalAlignment="Left" Margin="61,71,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Button x:Name="btn_cerrarSesion" Content="Cerrar sesión" HorizontalAlignment="Left" Margin="435,350,0,0" VerticalAlignment="Top" Width="85" Click="btn_cerrarSesion_Click" FontSize="14"/>
+        <Button x:Name="btn_cerrarSesion" Content="Cerrar sesión" HorizontalAlignment="Left" Margin="61,192,0,0" VerticalAlignment="Top" Width="85" Click="btn_cerrarSesion_Click" FontSize="14"/>
+        <Button x:Name="btn_vehiculos" Content="Vehículos" HorizontalAlignment="Left" Margin="195,126,0,0" VerticalAlignment="Top" Width="104" Height="22" Click="btn_vehiculos_Click"/>
 
     </Grid>
 </Window>

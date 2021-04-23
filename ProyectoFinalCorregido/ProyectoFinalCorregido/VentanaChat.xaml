@@ -11,6 +11,7 @@
         <Button x:Name="btn_enviar" Content="Enviar" HorizontalAlignment="Left" Margin="433,275,0,0" VerticalAlignment="Top" Width="101" Height="101" FontSize="14"/>
         <Label Content="Chat Online" HorizontalAlignment="Left" Margin="80,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
         <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="459,33,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="btn_regresar_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="166" Margin="80,88,0,0" VerticalAlignment="Top" Width="454" Orientation="Vertical"/>
 
     </Grid>
 </Window>

@@ -26,9 +26,28 @@ namespace ProyectoFinalCorregido
 
         private void btn_regresar_Click(object sender, RoutedEventArgs e)
         {
-            VentanaReporte ventanaReporte = new VentanaReporte();
-            ventanaReporte.Show();
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
             this.Close();
+        }
+
+        private void btn_agregar_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaRegistrarReporte ventanaRegistrarReporte = new VentanaRegistrarReporte();
+            ventanaRegistrarReporte.Show();
+            this.Close();
+        }
+
+        private void btn_modificar_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaRegistrarReporte ventanaRegistrarReporte = new VentanaRegistrarReporte();
+            ventanaRegistrarReporte.Show();
+            this.Close();
+        }
+
+        private void btn_dictamen_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("\nFolio: \nFecha y hora: \nPerito: \nDescripción: ", "Detalles del dictamen");
         }
     }
 }

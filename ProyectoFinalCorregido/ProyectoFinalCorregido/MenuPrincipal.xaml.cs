@@ -38,7 +38,7 @@ namespace ProyectoFinalCorregido
             this.Close();
         }
 
-        private void btn_registrarConductor_Click(object sender, RoutedEventArgs e)
+        private void btn_conductores_Click(object sender, RoutedEventArgs e)
         {
             VentanaRegistroConductor ventanaRegistroConductor = new VentanaRegistroConductor();
             ventanaRegistroConductor.Show();
@@ -47,8 +47,15 @@ namespace ProyectoFinalCorregido
 
         private void btn_reportes_Click(object sender, RoutedEventArgs e)
         {
-            VentanaReporte ventanaReporte = new VentanaReporte();
-            ventanaReporte.Show();
+            VentanaHistorialReportes ventanaHistorialReportes = new VentanaHistorialReportes();
+            ventanaHistorialReportes.Show();
+            this.Close();
+        }
+
+        private void btn_vehiculos_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaVehiculos vehiculos = new VentanaVehiculos();
+            vehiculos.Show();
             this.Close();
         }
     }
