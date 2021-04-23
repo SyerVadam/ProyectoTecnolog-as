@@ -67,9 +67,6 @@
     <Compile Include="VentanaRegistroConductor.xaml.cs">
       <DependentUpon>VentanaRegistroConductor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VentanaReporte.xaml.cs">
-      <DependentUpon>VentanaReporte.xaml</DependentUpon>
-    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -99,10 +96,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VentanaRegistroConductor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="VentanaReporte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
