@@ -1,0 +1,27 @@
+﻿<Window x:Class="AplicacionEscritorioMunicipios.VentanaVehiculo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoNuevo"
+        mc:Ignorable="d"
+        Title="Vehiculos" Height="450" Width="800">
+    <Grid>
+        <Button Content="Regresar" HorizontalAlignment="Left" Margin="43,35,0,0" VerticalAlignment="Top" Width="75" Click="Btn_regresar_Click"/>
+        <ListView HorizontalAlignment="Left" Height="265" Margin="43,80,0,0" VerticalAlignment="Top" Width="703">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Placas" Width="150"/>
+                    <GridViewColumn Header="Modelo" Width="200"/>
+                    <GridViewColumn Header="Marca" Width="150"/>
+                    <GridViewColumn Header="Conductor" Width="200"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="43,369,0,0" VerticalAlignment="Top" Width="75" Click="Btn_eliminar_Click"/>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="671,369,0,0" VerticalAlignment="Top" Width="75" Click="Btn_agregar_Click"/>
+        <Button Content="Modificar" HorizontalAlignment="Left" Margin="566,369,0,0" VerticalAlignment="Top" Width="75" Click="Btn_modificar_Click"/>
+        <Button Content="Ver detalle" HorizontalAlignment="Left" Margin="348,369,0,0" VerticalAlignment="Top" Width="75" Click="Btn_detalle_Click"/>
+
+    </Grid>
+</Window>

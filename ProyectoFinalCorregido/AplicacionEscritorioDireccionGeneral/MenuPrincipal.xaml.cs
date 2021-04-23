@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ProyectoFinalCorregido
+
+namespace AplicacionEscritorioDireccionGeneral
 {
     /// <summary>
     /// Lógica de interacción para MenuPrincipal.xaml
@@ -38,12 +39,6 @@ namespace ProyectoFinalCorregido
             this.Close();
         }
 
-        private void btn_registrarConductor_Click(object sender, RoutedEventArgs e)
-        {
-            VentanaRegistroConductor ventanaRegistroConductor = new VentanaRegistroConductor();
-            ventanaRegistroConductor.Show();
-            this.Close();
-        }
 
         private void btn_reportes_Click(object sender, RoutedEventArgs e)
         {
