@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ProyectoNuevo
+namespace ProyectoFinalCorregido
 {
     /// <summary>
     /// Lógica de interacción para VentanaRegistroVehiculo.xaml
@@ -23,7 +23,6 @@ namespace ProyectoNuevo
         {
             InitializeComponent();
         }
-
         private void Btn_cancelar_Click(object sender, RoutedEventArgs e)
         {
             mostrarVentana();
@@ -36,7 +35,7 @@ namespace ProyectoNuevo
 
         private void mostrarVentana()
         {
-            VentanaVehiculo vehiculo = new VentanaVehiculo();
+            VentanaVehiculos vehiculo = new VentanaVehiculos();
             vehiculo.Show();
             this.Close();
         }

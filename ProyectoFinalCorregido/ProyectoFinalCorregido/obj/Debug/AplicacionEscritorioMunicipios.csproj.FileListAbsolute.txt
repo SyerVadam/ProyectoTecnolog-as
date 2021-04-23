@@ -24,4 +24,6 @@ C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\Proye
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\AplicacionEscritorioMunicipios.csproj.GenerateResource.cache
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\AplicacionEscritorioMunicipios.csproj.CoreCompileInputs.cache
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\VentanaRegistroVehiculo.g.cs
-C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\VentanaVehiculo.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\VentanaVehiculos.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\VentanaRegistroVehiculo.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\obj\Debug\VentanaVehiculos.baml

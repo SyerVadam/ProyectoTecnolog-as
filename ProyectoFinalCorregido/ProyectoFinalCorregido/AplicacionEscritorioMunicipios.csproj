@@ -67,8 +67,12 @@
     <Compile Include="VentanaRegistroConductor.xaml.cs">
       <DependentUpon>VentanaRegistroConductor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VentanaRegistroVehiculo.xaml.cs" />
-    <Compile Include="VentanaVehiculo.xaml.cs" />
+    <Compile Include="VentanaRegistroVehiculo.xaml.cs">
+      <DependentUpon>VentanaRegistroVehiculo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaVehiculos.xaml.cs">
+      <DependentUpon>VentanaVehiculos.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -102,12 +106,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VentanaRegistroVehiculo.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="VentanaVehiculo.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="VentanaVehiculos.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

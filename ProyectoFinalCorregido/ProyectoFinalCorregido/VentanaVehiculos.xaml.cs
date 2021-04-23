@@ -12,21 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ProyectoNuevo
+namespace ProyectoFinalCorregido
 {
     /// <summary>
-    /// Lógica de interacción para VentanaVehiculo.xaml
+    /// Lógica de interacción para VentanaVehiculos.xaml
     /// </summary>
-    public partial class VentanaVehiculo : Window
+    public partial class VentanaVehiculos : Window
     {
-        public VentanaVehiculo()
+        public VentanaVehiculos()
         {
             InitializeComponent();
         }
 
         private void Btn_regresar_Click(object sender, RoutedEventArgs e)
         {
-
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
+            this.Close();
         }
 
         private void Btn_eliminar_Click(object sender, RoutedEventArgs e)
@@ -36,7 +38,7 @@ namespace ProyectoNuevo
 
         private void Btn_detalle_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Conductor: \nPlacas: \nModelo: \nMarca: \nAño: \nColor: \nPoliza de seguro: \nAseguradora: ", 
+            MessageBox.Show("Conductor: \nPlacas: \nModelo: \nMarca: \nAño: \nColor: \nPoliza de seguro: \nAseguradora: ",
                 "Detalles del vehículo");
         }
 

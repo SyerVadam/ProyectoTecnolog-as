@@ -54,7 +54,9 @@ namespace ProyectoFinalCorregido
 
         private void btn_vehiculos_Click(object sender, RoutedEventArgs e)
         {
-
+            VentanaVehiculos vehiculos = new VentanaVehiculos();
+            vehiculos.Show();
+            this.Close();
         }
     }
 }
