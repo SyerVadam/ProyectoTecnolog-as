@@ -58,13 +58,25 @@
     <Compile Include="MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VentanaActualizarDelegacion.xaml.cs">
+      <DependentUpon>VentanaActualizarDelegacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaActualizarUsuario.xaml.cs">
+      <DependentUpon>VentanaActualizarUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaChat.xaml.cs">
       <DependentUpon>VentanaChat.xaml</DependentUpon>
     </Compile>
     <Compile Include="VentanaDetalleReporte.xaml.cs" />
     <Compile Include="VentanaDictamen.xaml.cs" />
+    <Compile Include="VentanaListaDelegaciones.xaml.cs">
+      <DependentUpon>VentanaListaDelegaciones.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaListaDeUsuarios.xaml.cs">
       <DependentUpon>VentanaListaDeUsuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaRegistrarDelegacion.xaml.cs">
+      <DependentUpon>VentanaRegistrarDelegacion.xaml</DependentUpon>
     </Compile>
     <Compile Include="VentanaRegistrarUsuario.xaml.cs">
       <DependentUpon>VentanaRegistrarUsuario.xaml</DependentUpon>
@@ -86,6 +98,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="VentanaActualizarDelegacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaActualizarUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="VentanaChat.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,7 +118,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="VentanaListaDelegaciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="VentanaListaDeUsuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaRegistrarDelegacion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
