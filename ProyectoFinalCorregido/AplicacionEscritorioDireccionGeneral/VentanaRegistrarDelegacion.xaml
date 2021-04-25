@@ -1,0 +1,29 @@
+﻿<Window x:Class="AplicacionEscritorioDireccionGeneral.VentanaRegistrarDelegacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplicacionEscritorioDireccionGeneral"
+        mc:Ignorable="d"
+        Title="VentanaRegistrarDelegacion" Height="417" Width="614">
+    <Grid>
+        <Label Content="Nombre de la delegación" HorizontalAlignment="Left" Margin="45,21,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="45,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="45,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Label Content="Municipio" HorizontalAlignment="Left" Margin="45,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Código postal" HorizontalAlignment="Left" Margin="45,156,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="45,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="45,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Label Content="Colonia" HorizontalAlignment="Left" Margin="45,225,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="342,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Label Content="Calle" HorizontalAlignment="Left" Margin="342,22,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="342,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Número" HorizontalAlignment="Left" Margin="342,81,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="342,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Label Content="Teléfono" HorizontalAlignment="Left" Margin="342,156,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="342,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Label Content="Correo electrónico" HorizontalAlignment="Left" Margin="342,225,0,0" VerticalAlignment="Top"/>
+        <Button Content="Registrar" HorizontalAlignment="Left" Margin="245,320,0,0" VerticalAlignment="Top" Width="119" Height="40"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="442,335,0,0" VerticalAlignment="Top" Width="98" Height="25"/>
+    </Grid>
+</Window>
