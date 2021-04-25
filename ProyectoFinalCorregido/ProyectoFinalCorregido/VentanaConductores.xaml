@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProyectoFinalCorregido.VentanaConductores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinalCorregido"
+        mc:Ignorable="d"
+        Title="Ventana Conductores" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="622,37,0,0" VerticalAlignment="Top" Width="75" Click="btn_regresar_Click"/>
+        <ListView HorizontalAlignment="Left" Height="265" Margin="99,78,0,0" VerticalAlignment="Top" Width="598">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nombre" Width="150"/>
+                    <GridViewColumn Header="Fecha Nacimiento" Width="150"/>
+                    <GridViewColumn Header="No. Licencia" Width="150"/>
+                    <GridViewColumn Header="Tel. Celular" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btn_eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="99,369,0,0" VerticalAlignment="Top" Width="75" Click="btn_eliminar_Click"/>
+        <Button x:Name="btn_agregar" Content="Agregar" HorizontalAlignment="Left" Margin="622,369,0,0" VerticalAlignment="Top" Width="75" Click="btn_agregar_Click"/>
+        <Button x:Name="btn_modificar" Content="Modificar" HorizontalAlignment="Left" Margin="493,369,0,0" VerticalAlignment="Top" Width="75" Click="btn_modificar_Click"/>
+        <Button x:Name="btn_detalles" Content="Ver detalle" HorizontalAlignment="Left" Margin="312,369,0,0" VerticalAlignment="Top" Width="75" Click="btn_detalles_Click"/>
+        <Label Content="Conductores registrados" HorizontalAlignment="Left" Margin="99,37,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+    </Grid>
+</Window>

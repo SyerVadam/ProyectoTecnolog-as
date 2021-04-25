@@ -64,6 +64,9 @@
     <Compile Include="VentanaChat.xaml.cs">
       <DependentUpon>VentanaChat.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VentanaConductores.xaml.cs">
+      <DependentUpon>VentanaConductores.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaHistorialReportes.xaml.cs">
       <DependentUpon>VentanaHistorialReportes.xaml</DependentUpon>
     </Compile>
@@ -101,6 +104,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VentanaChat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaConductores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

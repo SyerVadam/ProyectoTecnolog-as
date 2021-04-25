@@ -41,8 +41,8 @@ namespace ProyectoFinalCorregido
 
         private void btn_registrarConductor_Click(object sender, RoutedEventArgs e)
         {
-            VentanaRegistroConductor ventanaRegistroConductor = new VentanaRegistroConductor();
-            ventanaRegistroConductor.Show();
+            VentanaConductores ventanaConductores = new VentanaConductores();
+            ventanaConductores.Show();
             this.Close();
         }
 

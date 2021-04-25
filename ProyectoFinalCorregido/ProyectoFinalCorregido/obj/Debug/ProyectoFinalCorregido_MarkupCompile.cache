@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 C:\Users\salom\Documents\Ingeniería en Software\Tecnologías para la construcción de Software\CarpetaGIT\ProyectoTecnologias\ProyectoFinalCorregido\ProyectoFinalCorregido\App.xaml
+<<<<<<< Updated upstream
 9-466320907
 
 13-1233690627
 13-1505183044
 LoginDireccion.xaml;MainWindow.xaml;MenuPrincipal.xaml;MenuPrincipalDireccion.xaml;VentanaChat.xaml;VentanaHistorialReportes.xaml;VentanaRegistrarReporte.xaml;VentanaRegistroConductor.xaml;VentanaReporte.xaml;
+=======
+9498245808
+
+13953735270
+13-1505183044
+MainWindow.xaml;MenuPrincipal.xaml;VentanaChat.xaml;VentanaConductores.xaml;VentanaHistorialReportes.xaml;VentanaRegistrarReporte.xaml;VentanaRegistroConductor.xaml;VentanaRegistroVehiculo.xaml;VentanaVehiculos.xaml;
+>>>>>>> Stashed changes
 
 False
 

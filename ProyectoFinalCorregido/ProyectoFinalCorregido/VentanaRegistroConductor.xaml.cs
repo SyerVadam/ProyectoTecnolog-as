@@ -26,15 +26,15 @@ namespace ProyectoFinalCorregido
 
         private void btn_guardar_Click(object sender, RoutedEventArgs e)
         {
-            MenuPrincipal menuPrincipal = new MenuPrincipal();
-            menuPrincipal.Show();
+            VentanaConductores ventanaConductores = new VentanaConductores();
+            ventanaConductores.Show();
             this.Close();
         }
 
         private void brn_cancelar_Click(object sender, RoutedEventArgs e)
         {
-            MenuPrincipal menuPrincipal = new MenuPrincipal();
-            menuPrincipal.Show();
+            VentanaConductores ventanaConductores = new VentanaConductores();
+            ventanaConductores.Show();
             this.Close();
         }
     }
