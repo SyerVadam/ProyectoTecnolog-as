@@ -63,6 +63,12 @@
     </Compile>
     <Compile Include="VentanaDetalleReporte.xaml.cs" />
     <Compile Include="VentanaDictamen.xaml.cs" />
+    <Compile Include="VentanaListaDeUsuarios.xaml.cs">
+      <DependentUpon>VentanaListaDeUsuarios.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaRegistrarUsuario.xaml.cs">
+      <DependentUpon>VentanaRegistrarUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaReportes.xaml.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +97,14 @@
     <Page Include="VentanaDictamen.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="VentanaListaDeUsuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaRegistrarUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VentanaReportes.xaml">
       <Generator>MSBuild:Compile</Generator>
