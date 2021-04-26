@@ -46,5 +46,18 @@ namespace AplicacionEscritorioDireccionGeneral
             this.Close();
         }
 
+        private void btn_delegaciones_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaListaDelegaciones listaDelegaciones = new VentanaListaDelegaciones();
+            listaDelegaciones.Show();
+            this.Close();
+        }
+
+        private void btn_usuarios_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaListaDeUsuarios listaDeUsuarios = new VentanaListaDeUsuarios();
+            listaDeUsuarios.Show();
+            this.Close();
+        }
     }
 }

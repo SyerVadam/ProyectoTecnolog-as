@@ -24,7 +24,7 @@
         <TextBox HorizontalAlignment="Left" Height="24" Margin="342,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
         <Label Content="Correo electrónico" HorizontalAlignment="Left" Margin="342,225,0,0" VerticalAlignment="Top"/>
         <Button Content="Registrar" HorizontalAlignment="Left" Margin="245,320,0,0" VerticalAlignment="Top" Width="119" Height="40"/>
-        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="442,335,0,0" VerticalAlignment="Top" Width="98" Height="25"/>
+        <Button x:Name="btn_cancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="442,335,0,0" VerticalAlignment="Top" Width="98" Height="25" Click="btn_cancelar_Click"/>
 
     </Grid>
 </Window>

@@ -15,10 +15,10 @@
             </ListView.View>
         </ListView>
         <Label Content="Delegaciones" HorizontalAlignment="Left" Margin="25,19,0,0" VerticalAlignment="Top"/>
-        <Button Content="Registrar" HorizontalAlignment="Left" Margin="395,50,0,0" VerticalAlignment="Top" Width="90" Height="30"/>
-        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="395,130,0,0" VerticalAlignment="Top" Width="90" Height="30"/>
+        <Button x:Name="btn_registrar" Content="Registrar" HorizontalAlignment="Left" Margin="395,50,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="btn_registrar_Click"/>
+        <Button x:Name="btn_actualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="395,130,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="btn_actualizar_Click"/>
         <Button Content="Eliminar" HorizontalAlignment="Left" Margin="395,185,0,0" VerticalAlignment="Top" Width="90" Height="30"/>
-        <Button Content="Regresar" HorizontalAlignment="Left" Margin="410,355,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_regresar" Content="Regresar" HorizontalAlignment="Left" Margin="410,355,0,0" VerticalAlignment="Top" Width="75" Click="btn_regresar_Click"/>
 
     </Grid>
 </Window>

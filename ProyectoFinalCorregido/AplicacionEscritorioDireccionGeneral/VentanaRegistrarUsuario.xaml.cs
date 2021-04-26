@@ -29,9 +29,11 @@ namespace AplicacionEscritorioDireccionGeneral
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btn_cancelar_Click(object sender, RoutedEventArgs e)
         {
-
+            VentanaListaDeUsuarios listaDeUsuarios = new VentanaListaDeUsuarios();
+            listaDeUsuarios.Show();
+            this.Close();
         }
     }
 }

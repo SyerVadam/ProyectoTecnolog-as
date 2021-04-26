@@ -12,8 +12,8 @@
         <Label Content="Bienvenido al Sistema de reportes" HorizontalAlignment="Left" Margin="61,34,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="Presione la opción que desea realizar" HorizontalAlignment="Left" Margin="61,71,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Button x:Name="btn_cerrarSesion" Content="Cerrar sesión" HorizontalAlignment="Left" Margin="61,192,0,0" VerticalAlignment="Top" Width="85" Click="btn_cerrarSesion_Click" FontSize="14"/>
-        <Button Content="Usuarios" HorizontalAlignment="Left" Margin="61,128,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Delegaciones municipales" HorizontalAlignment="Left" Margin="154,128,0,0" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="btn_usuarios" Content="Usuarios" HorizontalAlignment="Left" Margin="61,128,0,0" VerticalAlignment="Top" Width="75" Click="btn_usuarios_Click"/>
+        <Button x:Name="btn_delegaciones" Content="Delegaciones municipales" HorizontalAlignment="Left" Margin="154,128,0,0" VerticalAlignment="Top" Width="145" Click="btn_delegaciones_Click"/>
 
     </Grid>
 </Window>

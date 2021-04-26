@@ -23,5 +23,12 @@ namespace AplicacionEscritorioDireccionGeneral
         {
             InitializeComponent();
         }
+
+        private void btn_cancelar_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaListaDelegaciones listaDelegaciones = new VentanaListaDelegaciones();
+            listaDelegaciones.Show();
+            this.Close();
+        }
     }
 }

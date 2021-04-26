@@ -23,5 +23,26 @@ namespace AplicacionEscritorioDireccionGeneral
         {
             InitializeComponent();
         }
+
+        private void btn_regresar_Click(object sender, RoutedEventArgs e)
+        {
+            MenuPrincipal menu = new MenuPrincipal();
+            menu.Show();
+            this.Close();
+        }
+
+        private void btn_registrarUsuario_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaRegistrarUsuario registrarUsuario = new VentanaRegistrarUsuario();
+            registrarUsuario.Show();
+            this.Close();
+        }
+
+        private void btn_actualizarUsuarioClick(object sender, RoutedEventArgs e)
+        {
+            VentanaActualizarUsuario actualizarUsuario = new VentanaActualizarUsuario();
+            actualizarUsuario.Show();
+            this.Close();
+        }
     }
 }
