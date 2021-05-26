@@ -24,6 +24,8 @@ namespace AplicacionEscritorioDireccionGeneral
             InitializeComponent();
         }
 
+
+
         private void btn_regresar_Click(object sender, RoutedEventArgs e)
         {
             MenuPrincipal menu = new MenuPrincipal();
@@ -43,6 +45,11 @@ namespace AplicacionEscritorioDireccionGeneral
             VentanaActualizarUsuario actualizarUsuario = new VentanaActualizarUsuario();
             actualizarUsuario.Show();
             this.Close();
+        }
+
+        private void SelectionChanged_cbDelegacion(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
