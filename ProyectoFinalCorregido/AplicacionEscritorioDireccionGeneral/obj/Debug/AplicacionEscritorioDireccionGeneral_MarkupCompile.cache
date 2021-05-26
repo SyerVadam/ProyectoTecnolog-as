@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\App.xaml
+<<<<<<< Updated upstream
 61857932855
 
 102103734089
 13-1505183044
 MainWindow.xaml;MenuPrincipal.xaml;VentanaChat.xaml;VentanaDetalleReporte.xaml;VentanaDictamen.xaml;VentanaReportes.xaml;
+=======
+12-2138765758
+
+161066610359
+13-1505183044
+MainWindow.xaml;MenuPrincipal.xaml;VentanaActualizarDelegacion.xaml;VentanaActualizarUsuario.xaml;VentanaChat.xaml;VentanaDetalleReporte.xaml;VentanaDictamen.xaml;VentanaListaDelegaciones.xaml;VentanaListaDeUsuarios.xaml;VentanaRegistrarDelegacion.xaml;VentanaRegistrarUsuario.xaml;VentanaReportes.xaml;
+>>>>>>> Stashed changes
 
 False
 

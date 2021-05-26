@@ -23,3 +23,15 @@ C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\Aplic
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaDictamen.baml
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaReportes.g.cs
 C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaReportes.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaActualizarDelegacion.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaActualizarUsuario.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaListaDelegaciones.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaListaDeUsuarios.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaRegistrarDelegacion.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaRegistrarUsuario.g.cs
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaActualizarDelegacion.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaActualizarUsuario.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaListaDelegaciones.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaListaDeUsuarios.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaRegistrarDelegacion.baml
+C:\Users\alber\Documents\GitHub\ProyectoTecnologias\ProyectoFinalCorregido\AplicacionEscritorioDireccionGeneral\obj\Debug\VentanaRegistrarUsuario.baml
