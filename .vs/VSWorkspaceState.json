@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProyectoFinalCorregido",
+    "\\ProyectoFinalCorregido\\AplicacionEscritorioDireccionGeneral",
+    "\\ProyectoFinalCorregido\\ProyectoFinalCorregido"
   ],
-  "SelectedNode": "\\ProyectoFinalCorregido.sln",
+  "SelectedNode": "\\ProyectoFinalCorregido\\AplicacionEscritorioDireccionGeneral\\VentanaRegistrarDelegacion.xaml",
   "PreviewInSolutionExplorer": false
 }
